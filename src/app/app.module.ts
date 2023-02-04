@@ -22,6 +22,8 @@ import { BsModalService, ModalModule } from 'ngx-bootstrap/modal';
 import { ModalsComponent } from './components/modals/modals.component';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
 import { PaginationComponent } from './components/pagination/pagination.component';
+import { PopoverModule } from 'ngx-bootstrap/popover';
+import { PopovberComponent } from './components/popovber/popovber.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,8 @@ import { PaginationComponent } from './components/pagination/pagination.componen
     DatepickerComponent,
     DropdownComponent,
     ModalsComponent,
-    PaginationComponent
+    PaginationComponent,
+    PopovberComponent
   ],
   imports: [
     BrowserModule,
@@ -49,7 +52,8 @@ import { PaginationComponent } from './components/pagination/pagination.componen
     BsDatepickerModule,
     BsDropdownModule,
     ModalModule,
-    PaginationModule
+    PaginationModule,
+    PopoverModule
   ],
   providers: [BsModalService],
   bootstrap: [AppComponent]
