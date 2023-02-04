@@ -30,6 +30,8 @@ import { RatingModule } from 'ngx-bootstrap/rating';
 import { RatingComponent } from './components/rating/rating.component';
 import { SortableModule } from 'ngx-bootstrap/sortable';
 import { SorttableComponent } from './components/sorttable/sorttable.component';
+import { TabsModule } from 'ngx-bootstrap/tabs';
+import { TabsComponent } from './components/tabs/tabs.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,8 @@ import { SorttableComponent } from './components/sorttable/sorttable.component';
     PopovberComponent,
     ProgressbarComponent,
     RatingComponent,
-    SorttableComponent
+    SorttableComponent,
+    TabsComponent
   ],
   imports: [
     BrowserModule,
@@ -65,7 +68,8 @@ import { SorttableComponent } from './components/sorttable/sorttable.component';
     PopoverModule,
     ProgressbarModule,
     RatingModule,
-    SortableModule
+    SortableModule,
+    TabsModule
   ],
   providers: [BsModalService],
   bootstrap: [AppComponent]
