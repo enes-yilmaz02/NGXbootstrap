@@ -34,6 +34,8 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { TabsComponent } from './components/tabs/tabs.component';
 import { TimepickerModule } from 'ngx-bootstrap/timepicker';
 import { TimepickerComponent } from './components/timepicker/timepicker.component';
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
+import { TooltipComponent } from './components/tooltip/tooltip.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +54,8 @@ import { TimepickerComponent } from './components/timepicker/timepicker.componen
     RatingComponent,
     SorttableComponent,
     TabsComponent,
-    TimepickerComponent
+    TimepickerComponent,
+    TooltipComponent
   ],
   imports: [
     BrowserModule,
@@ -73,7 +76,8 @@ import { TimepickerComponent } from './components/timepicker/timepicker.componen
     RatingModule,
     SortableModule,
     TabsModule,
-    TimepickerModule
+    TimepickerModule,
+    TooltipModule
   ],
   providers: [BsModalService],
   bootstrap: [AppComponent]
