@@ -14,6 +14,8 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { CollapseComponent } from './components/collapse/collapse.component';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+import { DatepickerComponent } from './components/datepicker/datepicker.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { CollapseComponent } from './components/collapse/collapse.component';
     AlertComponent,
     ButtonsComponent,
     CarouselComponent,
-    CollapseComponent
+    CollapseComponent,
+    DatepickerComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +36,8 @@ import { CollapseComponent } from './components/collapse/collapse.component';
     ButtonsModule,
     FormsModule,
     CarouselModule,
-    CollapseModule
+    CollapseModule,
+    BsDatepickerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
