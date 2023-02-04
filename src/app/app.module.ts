@@ -20,6 +20,8 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
 import { BsModalService, ModalModule } from 'ngx-bootstrap/modal';
 import { ModalsComponent } from './components/modals/modals.component';
+import { PaginationModule } from 'ngx-bootstrap/pagination';
+import { PaginationComponent } from './components/pagination/pagination.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import { ModalsComponent } from './components/modals/modals.component';
     CollapseComponent,
     DatepickerComponent,
     DropdownComponent,
-    ModalsComponent
+    ModalsComponent,
+    PaginationComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +48,8 @@ import { ModalsComponent } from './components/modals/modals.component';
     CollapseModule,
     BsDatepickerModule,
     BsDropdownModule,
-    ModalModule
+    ModalModule,
+    PaginationModule
   ],
   providers: [BsModalService],
   bootstrap: [AppComponent]
