@@ -32,6 +32,8 @@ import { SortableModule } from 'ngx-bootstrap/sortable';
 import { SorttableComponent } from './components/sorttable/sorttable.component';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { TabsComponent } from './components/tabs/tabs.component';
+import { TimepickerModule } from 'ngx-bootstrap/timepicker';
+import { TimepickerComponent } from './components/timepicker/timepicker.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +51,8 @@ import { TabsComponent } from './components/tabs/tabs.component';
     ProgressbarComponent,
     RatingComponent,
     SorttableComponent,
-    TabsComponent
+    TabsComponent,
+    TimepickerComponent
   ],
   imports: [
     BrowserModule,
@@ -69,7 +72,8 @@ import { TabsComponent } from './components/tabs/tabs.component';
     ProgressbarModule,
     RatingModule,
     SortableModule,
-    TabsModule
+    TabsModule,
+    TimepickerModule
   ],
   providers: [BsModalService],
   bootstrap: [AppComponent]
