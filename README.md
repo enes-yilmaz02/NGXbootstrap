@@ -27,14 +27,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 <p align="center">
-  <img src="../assets/Ekran Resmi 2023-02-04 20.37.09.png" width="350" title="hover text">
-  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+  <img src="src/assets/Ekran Resmi 2023-02-04 20.37.09.png" width="350" >
+  <img src="src/assets/Ekran Resmi 2023-02-04 20.37.37.png" width="350" >
 </p>
 <p align="center">
-  <img src="your_relative_path_here" width="350" title="hover text">
-  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+  <img src="src/assets/Ekran Resmi 2023-02-04 20.38.00.png" width="350" >
+  <img src="src/assets/Ekran Resmi 2023-02-04 20.38.19.png" width="350" >
 </p>
 <p align="center">
-  <img src="your_relative_path_here" width="350" title="hover text">
-  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+  <img src="src/assets/Ekran Resmi 2023-02-04 20.38.37.png" width="350" >
+  <img src="src/assets/Ekran Resmi 2023-02-04 20.38.53.png" width="350" >
+</p>
+<p align="center">
+  <img src="src/assets/Ekran Resmi 2023-02-04 20.39.23.png" width="350" >
+  <img src="src/assets/Ekran Resmi 2023-02-04 20.39.42.png" width="350" >
 </p>
