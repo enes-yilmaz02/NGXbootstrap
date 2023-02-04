@@ -16,6 +16,8 @@ import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { CollapseComponent } from './components/collapse/collapse.component';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { DatepickerComponent } from './components/datepicker/datepicker.component';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { DropdownComponent } from './components/dropdown/dropdown.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { DatepickerComponent } from './components/datepicker/datepicker.componen
     ButtonsComponent,
     CarouselComponent,
     CollapseComponent,
-    DatepickerComponent
+    DatepickerComponent,
+    DropdownComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,8 @@ import { DatepickerComponent } from './components/datepicker/datepicker.componen
     FormsModule,
     CarouselModule,
     CollapseModule,
-    BsDatepickerModule
+    BsDatepickerModule,
+    BsDropdownModule
   ],
   providers: [],
   bootstrap: [AppComponent]
