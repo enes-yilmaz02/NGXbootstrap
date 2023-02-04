@@ -7,19 +7,25 @@ import { AccordionModule } from 'ngx-bootstrap/accordion';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AlertModule } from 'ngx-bootstrap/alert';
 import { AlertComponent } from './components/alert/alert.component';
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
+import { ButtonsComponent } from './components/buttons/buttons.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccordionComponent,
-    AlertComponent
+    AlertComponent,
+    ButtonsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AccordionModule,
     BrowserAnimationsModule,
-    AlertModule.forRoot()
+    AlertModule,
+    ButtonsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
