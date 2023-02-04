@@ -10,13 +10,16 @@ import { AlertComponent } from './components/alert/alert.component';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { ButtonsComponent } from './components/buttons/buttons.component';
 import { FormsModule } from '@angular/forms';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccordionComponent,
     AlertComponent,
-    ButtonsComponent
+    ButtonsComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +28,8 @@ import { FormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     AlertModule,
     ButtonsModule,
-    FormsModule
+    FormsModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
