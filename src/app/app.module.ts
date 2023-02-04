@@ -12,6 +12,8 @@ import { ButtonsComponent } from './components/buttons/buttons.component';
 import { FormsModule } from '@angular/forms';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { CollapseModule } from 'ngx-bootstrap/collapse';
+import { CollapseComponent } from './components/collapse/collapse.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     AccordionComponent,
     AlertComponent,
     ButtonsComponent,
-    CarouselComponent
+    CarouselComponent,
+    CollapseComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +32,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     AlertModule,
     ButtonsModule,
     FormsModule,
-    CarouselModule
+    CarouselModule,
+    CollapseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
