@@ -28,6 +28,8 @@ import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 import { ProgressbarComponent } from './components/progressbar/progressbar.component';
 import { RatingModule } from 'ngx-bootstrap/rating';
 import { RatingComponent } from './components/rating/rating.component';
+import { SortableModule } from 'ngx-bootstrap/sortable';
+import { SorttableComponent } from './components/sorttable/sorttable.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,8 @@ import { RatingComponent } from './components/rating/rating.component';
     PaginationComponent,
     PopovberComponent,
     ProgressbarComponent,
-    RatingComponent
+    RatingComponent,
+    SorttableComponent
   ],
   imports: [
     BrowserModule,
@@ -61,7 +64,8 @@ import { RatingComponent } from './components/rating/rating.component';
     PaginationModule,
     PopoverModule,
     ProgressbarModule,
-    RatingModule
+    RatingModule,
+    SortableModule
   ],
   providers: [BsModalService],
   bootstrap: [AppComponent]
