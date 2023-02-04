@@ -18,6 +18,8 @@ import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { DatepickerComponent } from './components/datepicker/datepicker.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
+import { BsModalService, ModalModule } from 'ngx-bootstrap/modal';
+import { ModalsComponent } from './components/modals/modals.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import { DropdownComponent } from './components/dropdown/dropdown.component';
     CarouselComponent,
     CollapseComponent,
     DatepickerComponent,
-    DropdownComponent
+    DropdownComponent,
+    ModalsComponent
   ],
   imports: [
     BrowserModule,
@@ -41,9 +44,10 @@ import { DropdownComponent } from './components/dropdown/dropdown.component';
     CarouselModule,
     CollapseModule,
     BsDatepickerModule,
-    BsDropdownModule
+    BsDropdownModule,
+    ModalModule
   ],
-  providers: [],
+  providers: [BsModalService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
